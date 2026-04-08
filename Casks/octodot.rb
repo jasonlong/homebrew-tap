@@ -1,6 +1,6 @@
 cask "octodot" do
-  version "0.4.2"
-  sha256 "6c9c16a73019632c4b2cb0273265a9e6d1240d665a909fe3b9ea125704fa6531"
+  version "0.4.3"
+  sha256 "f59b47a4522813136b4bf07d253c0f3e8807b09e04341da01f47efc4185ffac7"
 
   url "https://github.com/jasonlong/octodot/releases/download/v#{version}/Octodot-v#{version}-macos.zip"
   name "Octodot"
