@@ -12,6 +12,6 @@ cask "mater" do
   app "Mater.app"
 
   zap trash: [
-    "~/Library/Preferences/com.jasonlong.mater.plist",
+    "~/Library/Preferences/me.jasonlong.mater.plist",
   ]
 end
