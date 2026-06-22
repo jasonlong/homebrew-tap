@@ -1,6 +1,6 @@
 cask "octodot" do
-  version "0.5.4"
-  sha256 "1564647c624a3806bdc5b35e3fc9b9786907be07829b6a83ff4db521896a652e"
+  version "0.5.5"
+  sha256 "2bc35c8b67010db2b8ccfe5cc3da4c730c3ca5cda8d8913b845691854dc1a7d8"
 
   url "https://github.com/jasonlong/octodot/releases/download/v#{version}/Octodot-v#{version}-macos.zip"
   name "Octodot"
@@ -8,7 +8,7 @@ cask "octodot" do
   homepage "https://github.com/jasonlong/octodot"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :sonoma"
 
   preflight do
     system_command "/usr/bin/xattr",
