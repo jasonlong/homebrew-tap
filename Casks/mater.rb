@@ -7,7 +7,7 @@ cask "mater" do
   desc "Pomodoro timer in the macOS menu bar"
   homepage "https://github.com/jasonlong/mater"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Mater.app"
 
